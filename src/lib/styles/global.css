@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+input,
+select,
+textarea,
+a,
+button {
+	@apply transition;
+}
+
+body {
+	@apply font-rubik bg-slate-800 text-slate-300 text-sm;
+}
+
+@tailwind utilities;
